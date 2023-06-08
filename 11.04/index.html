@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div>{{name}}</div>
+      <div>{{surname}}</div>
+      <a :href="href">{{text}}</a>
+
+      <div>{{ Math.pow(num, 2) }}</div>
+
+      <div>{{ num1 + num2 + num3 }}</div>
+
+      <div>{{ arr[0] }}</div>
+      <div class="">{{ arr[1] }}</div>
+      <div class="">{{ arr[2] }}</div>
+      <div class="">{{ arr[3] }}</div>
+      <div class="">{{ arr[4] }}</div>
+      <div class="">{{ }}</div>
+      <!-- <button @click="show">text</button> -->
+      <form action="">
+        <div class="output"></div>
+        <input type="text" class="input" />
+        <button type="submit" @click="show">Ok</button>
+      </form>
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
